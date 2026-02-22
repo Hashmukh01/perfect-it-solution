@@ -7,29 +7,35 @@ body {
 
 /* HEADER */
 header {
-    background: #ffffff;
-    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    z-index: 1000;
+    padding: 15px 8%;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .logo img {
-    height: 50px;   /* You can change this */
+    height: 45px;
     width: auto;
 }
 
-nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #0a1f44;
-    font-weight: 500;
+.logo h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #1e3a8a;
 }
 
-nav a:hover {
-    color: #ff6600;
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #1e3a8a;
+    font-weight: 500;
 }
 
 /* HERO SECTION */
@@ -120,3 +126,4 @@ footer {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 
 }
+
