@@ -105,11 +105,17 @@ section h2 {
 }
 
 .card h3 {
-    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .card p {
-    color: #f1f5f9;
+    color: #f0f6ff;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
 }
 
 .card a {
@@ -210,6 +216,7 @@ body::after {
     opacity: 0.05;
     pointer-events: none;
 }
+
 
 
 
