@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #f5f7fa;
-    color: #333;
+    background: #0f172a;
+    color: white;
 }
 
 /* HEADER */
@@ -136,6 +136,18 @@ footer {
 #services {
     padding: 100px 8%;
     background: linear-gradient(135deg, #1e3a8a, #0f172a);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: -100px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #2563eb, transparent 70%);
+    opacity: 0.4;
+    z-index: -1;
 }
 
 
