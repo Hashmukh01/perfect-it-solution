@@ -16,10 +16,9 @@ header {
     z-index: 1000;
 }
 
-.logo h2 {
-    margin: 0;
-    font-size: 20px;
-    color: #0a1f44;
+.logo img {
+    height: 50px;   /* You can change this */
+    width: auto;
 }
 
 nav a {
@@ -119,4 +118,5 @@ footer {
     font-size: 22px;
     text-decoration: none;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
 }
