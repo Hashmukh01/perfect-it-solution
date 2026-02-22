@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #ffffff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    z-index: 1000;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #0a1f44;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #0a1f44;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(rgba(10,31,68,0.8), rgba(10,31,68,0.8)),
+    url('https://images.unsplash.com/photo-1518770660439-4636190af475');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #ff6600;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e65c00;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #0a1f44;
+}
+
+/* SERVICE CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #0a1f44;
+}
+
+/* FOOTER */
+footer {
+    background: #0a1f44;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* FLOATING WHATSAPP */
+.floating-whatsapp {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #25D366;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 50%;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
